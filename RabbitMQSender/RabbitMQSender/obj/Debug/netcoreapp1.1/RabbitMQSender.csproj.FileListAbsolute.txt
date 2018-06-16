@@ -1,0 +1,9 @@
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\bin\Debug\netcoreapp1.1\RabbitMQSender.deps.json
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\bin\Debug\netcoreapp1.1\RabbitMQSender.runtimeconfig.json
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\bin\Debug\netcoreapp1.1\RabbitMQSender.runtimeconfig.dev.json
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\bin\Debug\netcoreapp1.1\RabbitMQSender.dll
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\bin\Debug\netcoreapp1.1\RabbitMQSender.pdb
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\obj\Debug\netcoreapp1.1\RabbitMQSender.csprojResolveAssemblyReference.cache
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\obj\Debug\netcoreapp1.1\RabbitMQSender.AssemblyInfo.cs
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\obj\Debug\netcoreapp1.1\RabbitMQSender.dll
+C:\Users\GitaAbhi\Source\Repos\RabbitMQ\Sender\RabbitMQ\RabbitMQSender\RabbitMQSender\obj\Debug\netcoreapp1.1\RabbitMQSender.pdb
