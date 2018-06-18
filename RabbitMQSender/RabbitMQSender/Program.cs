@@ -1,4 +1,6 @@
 ﻿using System;
+using RabbitMQ.Client;
+using System.Text;
 
 namespace RabbitMQSender
 {
@@ -7,6 +9,26 @@ namespace RabbitMQSender
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! DEV");
-        }
+            //var factory = new ConnectionFactory() { HostName = @"http://otter.rmq.cloudamqp.com", UserName= "qwkgfezg", Password= "RrbeC8ZJWSfdwENQyCMbxbepuH09n8Bu" };
+
+            var factory = new ConnectionFactory();
+            
+            factory.Uri = new Uri("");
+
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+                {
+                channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
+
+                string message = "Hello World!";
+                var body = Encoding.UTF8.GetBytes(message);
+
+                channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
+                Console.WriteLine(" [x] Sent {0}", message);
+                }
+
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
+            }
     }
 }
